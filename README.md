@@ -1,10 +1,6 @@
-# Removed from the Chrome Webstore
-
-Due to a lack of motivation to continue development I've chosen to remove this extionsion from the website. Feel free to fork the repo and re-publish the extension.
-
-----
-
 # Strava Bulk Edit
+
+## Maintaining the tool originally created by Marc Hollander, do not expect support or resolving of any issues
 
 A Chrome extension to edit multiple Strava activities at once.
 
@@ -35,7 +31,7 @@ Not all filtered activities have the fields available in the update panel. The
 extension will just update the fields that are available for each individual
 activity.
 
-The gear lists might show legacy gear, because the extension copies the gear
+The gear lists might show legacy/retired gear, because the extension copies the gear
 values from the filter. Legacy gear will not be updated when you choose it in
 the update panel, because it is not available in the activities.
 
@@ -45,22 +41,8 @@ It is not possible to update the Run type field at the moment. This seams to be
 an issue on the side of Strava. The code is available in the extension, but it
 is disabled for now.
 
-## Roadmap
-
-There are a few enhancements I like te make in the future. These are added as
-[issues in the repository](https://github.com/MGHollander/strava-bulk-edit).
-
-## Feedback
-
-Please feel free to give feedback, share ideas or report bugs. Email me
-at marc [at] mghollander [dot] nl
-or [add an issue](https://github.com/MGHollander/strava-bulk-edit/issues).
-
-## Donate
-
-I work on this extension in my free time, but you can support me by making 
-a donation (or buy me a beer) via https://paypal.me/mghollander.
-
 ## Credits
 
-Inspired by https://github.com/jm-shi/Strava-Bulk-Editing
+Original creator Marc Hollander
+
+Forked from https://github.com/MGHollander/strava-bulk-edit/
