@@ -38,7 +38,7 @@ editPanelInfo.innerText = 'Not all filtered activities have the fields available
   'plugin will just update the fields that are available for each individual activity.';
 editPanelInfoRow.appendChild(editPanelInfo);
 
-const workoutTypeRideOptions = document.getElementById('workout_type_ride');
+const workoutTypeRideOptions = document.getElementById('tag_type_ride');
 const editPanelFormGroupRideType = document.createElement('div');
 editPanelFormGroupRideType.classList.add('form-group', 'col-sm-6');
 editPanelBody.appendChild(editPanelFormGroupRideType);
