@@ -175,10 +175,10 @@ loadingModal.classList.add('modal', 'fade');
 document.body.appendChild(loadingModal);
 document.body.classList.add('modal-open');
 
-const loadingModalBackdrop = document.createElement('div');
-loadingModalBackdrop.id = 'strava-bulk-edit-modal-backdrop';
-loadingModalBackdrop.classList.add('modal-backdrop', 'fade');
-document.body.appendChild(loadingModalBackdrop);
+// const loadingModalBackdrop = document.createElement('div');
+// loadingModalBackdrop.id = 'strava-bulk-edit-modal-backdrop';
+// loadingModalBackdrop.classList.add('modal-backdrop', 'fade');
+// document.body.appendChild(loadingModalBackdrop);
 
 const loadingModalDialog = document.createElement('div');
 loadingModalDialog.classList.add('modal-dialog', 'modal-sm');
@@ -300,5 +300,5 @@ function navigateBack() {
 
 function toggleLoadingOverlay() {
   loadingModal.classList.toggle('in');
-  loadingModalBackdrop.classList.toggle('in');
 }
+
